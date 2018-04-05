@@ -34,9 +34,6 @@ function Init()
   -- Here we are manually changing the background color
   BackgroundColor(33)
 
-  -- guyEntity.frameDelay = .12
-  -- girlEntity.currentState = 3
-
   local display = Display()
 
   -- We are going to render the message in a box as tiles. To do this, we need to wrap the
