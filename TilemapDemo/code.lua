@@ -61,7 +61,7 @@ function Init()
 
   -- Setup water tiles before rendering map
   local waterColumns = 6
-  local waterRows = tilemapSize.y
+  local waterRows = tilemapSize.y - 3
   local totalTiles = (waterColumns) * (waterRows)
 
   local waterTiles = {}
